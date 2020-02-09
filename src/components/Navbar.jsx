@@ -2,10 +2,10 @@ import React from "react";
 
 import { Col } from "react-bootstrap";
 
-class Navbar extends React.Component {
+class NavBar extends React.Component {
   render() {
     return (
-      <Col xs sm={12} md lg={2}>
+      <Col xs sm md={12} lg={2} className="border border-warning pb-4">
         <h1 className="text-dark mb-0">sklq</h1>
         <div>
           <a className="text-secondary" href="#aboutpage">
@@ -43,4 +43,4 @@ class Navbar extends React.Component {
   }
 }
 
-export default Navbar;
+export default NavBar;
